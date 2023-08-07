@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.NaN{
+    text-align: center;
+    margin-bottom: 5%;
+    position: relative;
+    left: 50%;
+    bottom: 15px;
+}
+.NaN h2{
+    font-size: 3rem;
+    color: blueviolet;
+    margin-left: 4%;
+}
+.NaN h3{
+    color: blueviolet;
+}
+.formulaire_login{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    border-top-right-radius: 100px;
+    background-color:rgb(255, 247, 247);
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+.formulaire_login .form label{
+    font-size: 1.2rem;
+}
+.formulaire_login .form input{
+    font-size: 1rem;
+    width: 80%;
+    height: 5vh;
+    padding-left: .5%;
+    margin-top: 1%;
+}
+.formulaire_login .form input:focus{
+    padding-left: .5%;
+}
+.form h1{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.formulaire_login .form input:focus{
+}
+body{
+    background-color: blueviolet;
+}
+.form{
+    float: left;
+    width: 100%;
+}
+.photo{
+    float: right;
+    width: 100%;
+}
+.photo img{
+    margin-top: 6%;
+    width: 100%;
+    height: 55vh;
+    border-top-right-radius: 100px;
+}
+.email{
+    margin-bottom: 3%;
+}
+button{
+    margin-top: 3%;
+    width: 80%;
+    height: 6vh;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color: white;
+    font-size: 1.2rem;
+}
+.forget p{
+    margin-top: .5%;
+}
+.or{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.bonus{
+    display: flex;
+    margin-left: 9%;
+}
+.border1 , .border2{
+    border-bottom: 1px solid black;
+    width: 30%;
+    position: relative;
+    bottom: 7px;
+}
+/* .google{
+    width: 80%;
+    display: flex;
+    padding: 1%;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+.git{
+    width: 80%;
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    padding: 1%;
+} */
+.other_login{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 34%;
+    gap: 15px;
+}
